@@ -1,0 +1,127 @@
+.sec2 {
+  width: 100vw;
+  min-height: 94vh;
+  background-color: #fff;
+  padding-top: 6vh;
+}
+
+.sec2 h1 {
+  font-family: 'PT Mono';
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sec2 h1 span {
+  border-bottom: 1px solid #777;
+  padding: 1%;
+}
+
+.sec2 .projectsCont {
+  width: 90%;
+  padding: 5%;
+}
+
+.sec2 .project {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 0%;
+  flex-wrap: wrap;
+}
+
+.sec2 .infoz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 325px;
+  padding: 2%;
+}
+
+.sec2 .projectImage {
+  width: 100%;
+  height: 225px;
+  background-color: #eee;
+  border: 1px solid #eee;
+}
+
+.partyUp {
+  background-image: url(https://cdnw.nickpic.host/xKF11b.png);
+  background-size: cover;
+  background-position: center; 
+}
+
+.bunnyBabble {
+  background-image: url(https://cdnw.nickpic.host/xKFzXp.png);
+  background-size: cover;
+  background-position: center; 
+}
+
+.weatherFM {
+  background-image: url(https://cdnw.nickpic.host/xKaBx5.png);
+  background-size: cover;
+  background-position: center; 
+}
+
+.overwatch {
+  background-image: url(https://cdnw.nickpic.host/xKaOGz.png);
+  background-size: cover;
+  background-position: center; 
+}
+
+.sec2 .projectInfo {
+  margin-left: 5%;
+  width: 35%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.pInfos {
+  width: 90%;
+  padding: 5%;
+  background-color: #eee;
+  border: 1px solid #eee;
+  font-family: 'PT Mono';
+  font-size: 13px;
+  line-height: 180%;
+  text-align: justify;
+  height: 40%;
+  overflow: auto;
+}
+
+.pInfos span {
+  border-bottom: 1px solid #777;
+}
+
+.sec2 .links {
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+  margin-left: 1%;
+}
+
+.sec2 .buttonBg {
+  width: 40%;
+  height: auto;
+  padding: 2%;
+  background-color: #eee;
+  display: inline-flex;
+  margin: 2.5%;
+}
+
+.sec2 .button {
+  background-color: #fff;
+  width: 94%;
+  padding: 2%;
+  height: auto;
+  padding: 1%;
+  position: relative;
+  top: 1%;
+  left: 1%;
+  border: 1px solid #777;
+  font-size: 10px;
+  font-family: 'PT Mono';
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
