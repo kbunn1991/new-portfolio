@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../css/Section2.css';
 
 class Section2 extends React.Component {

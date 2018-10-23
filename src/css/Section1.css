@@ -7,27 +7,27 @@
 
 .topPart {
   width: 100%;
-  height: 15em;
+  height: 10em;
   background-image: url(https://cdnw.nickpic.host/xKb7uX.png);
   background-size: cover;
 }
 
 .imageBorder {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
   border: 10px solid #fff;
   position: absolute;
-  top: 25%;
-  left: 42%;
+  top: 18%;
+  left: 33%;
 }
 
 .profImage {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-image: url(https://cdnw.nickpic.host/xKbkoc.jpg);
   background-size: cover;
   border-radius: 50%;
@@ -45,13 +45,14 @@
 }
 
 .flexBox1 {
-  width: 42%;
+  margin-top: 10%;
+  width: 80%;
   padding: 2.5%;
   background-color: #eee;
   line-height: 180%;
   text-align: justify;
   font-family: 'PT Mono';
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .innerBox {
@@ -65,16 +66,17 @@
 }
 
 .flexBox2 {
-  width: 34%;
-  margin-left: 12%;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 5%;
   padding: 3%;
-  text-align: left;
+  text-align: justify;
   font-family: 'PT Mono';
   font-size: 14px;
 }
 
 .flexBox2 h1 {
-  text-align: right;
+  text-align: center;
   padding: 1%;
   border-bottom: 1px solid #777;
   margin-top: -6%;
@@ -84,4 +86,188 @@
 .flexBox2 .skills {
   line-height: 140%;
   padding-top: 2%;
+}
+
+
+
+
+@media only screen and (min-width: 420px) {
+  .imageBorder {
+    left: 38%;
+    width: 100px;
+    height: 100px;
+  }
+  .flexBox1 {
+    margin-top: 5%;
+    width: 75%;
+    padding: 2.5%;
+    background-color: #eee;
+    line-height: 180%;
+    font-size: 14px;
+  }
+  .flexBox2 {
+    width: 100%;
+    margin-top: 10%;
+    padding: 3%;
+    text-align: left;
+    font-family: 'PT Mono';
+    font-size: 14px;
+  }
+  .flexBox2 h1 {
+    text-align: center;
+    padding: 1%;
+    border-bottom: 1px solid #777;
+    margin-top: -6%;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .imageBorder {
+    left: 40%;
+    width: 100px;
+    height: 100px;
+  }
+  .flexBox1 {
+    margin-top: 5%;
+    width: 80%;
+    padding: 2.5%;
+    background-color: #eee;
+    line-height: 180%;
+    font-size: 14px;
+  }
+  .flexBox2 {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 3%;
+    text-align: left;
+    font-family: 'PT Mono';
+    font-size: 14px;
+  }
+  .flexBox2 h1 {
+    text-align: center;
+    padding: 1%;
+    border-bottom: 1px solid #777;
+    margin-top: -6%;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 600px) { 
+  .imageBorder {
+    top: 25%;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+  }
+  .profImage {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://cdnw.nickpic.host/xKbkoc.jpg);
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .topPart {
+    height: 15em;
+  }
+  .flexBox1 {
+    margin-top: 10%;
+    width: 85%;
+    margin-left: -5%;
+    padding: 2.5%;
+    background-color: #eee;
+    line-height: 180%;
+    font-size: 14px;
+  }
+  .flexBox2 {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 3%;
+    text-align: left;
+    font-family: 'PT Mono';
+    font-size: 14px;
+  }
+  .flexBox2 h1 {
+    text-align: center;
+    padding: 1%;
+    border-bottom: 1px solid #777;
+    margin-top: -6%;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .imageBorder {
+    top: 25%;
+    left: 42%;
+    width: 200px;
+    height: 200px;
+  }
+  .profImage {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://cdnw.nickpic.host/xKbkoc.jpg);
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .topPart {
+    height: 15em;
+  }
+  .flexin {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 5%;
+    position: relative;
+    margin-top: 6%;
+    height: 33%;
+  }
+  
+  .flexBox1 {
+    margin-top: 0%;
+    width: 42%;
+    padding: 2.5%;
+    background-color: #eee;
+    line-height: 180%;
+    text-align: justify;
+    font-family: 'PT Mono';
+    font-size: 14px;
+  }
+  
+  .innerBox {
+    width: 100%;
+    padding: 3%;
+    background-color: #fff;
+    border: 1px solid #777;
+    position: relative;
+    top: 0%;
+    left: 2%;
+  }
+  
+  .flexBox2 {
+    margin-top: 0%;
+    width: 34%;
+    margin-left: 12%;
+    padding: 3%;
+    text-align: left;
+    font-family: 'PT Mono';
+    font-size: 14px;
+  }
+  
+  .flexBox2 h1 {
+    text-align: right;
+    padding: 1%;
+    border-bottom: 1px solid #777;
+    margin-top: -6%;
+    font-size: 22px;
+  }
+  
+  .flexBox2 .skills {
+    line-height: 140%;
+    padding-top: 2%;
+  }
+  
 }

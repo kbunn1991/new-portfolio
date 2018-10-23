@@ -12,13 +12,13 @@
 
 .circlePadding {
   margin: 35px;
-  margin-top: 17%;
+  margin-top: 20%;
   display: inline-block;
 }
 
 .circleBorder {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
   border: 0px solid #C57E83;
   padding: 0px;
   border-radius: 50%;
@@ -26,18 +26,84 @@
 
 .circle {
   background-color: #fff;
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
   display: inline-block;
   /* margin-top: 20%; */
   border-radius: 50%;
   color: #C57E83;
-  font-size: 105px;
+  font-size: 35px;
 }
 
 .circleText {
   margin-top: 17px;
 }
+
+@media only screen and (min-width: 441px) {
+  .circlePadding {
+    margin: 35px;
+    margin-top: 20%;
+  }
+  .circleBorder {
+    width: 100px;
+    height: 100px;
+  }
+  .circle {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .circlePadding {
+    margin: 30px;
+    margin-top: 25%;
+  }
+  .circleBorder {
+    width: 100px;
+    height: 100px;
+  }
+  .circle {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .circlePadding {
+    margin: 35px;
+    margin-top: 17%;
+    display: inline-block;
+  }
+  
+  .circleBorder {
+    width: 150px;
+    height: 150px;
+    border: 0px solid #C57E83;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  
+  .circle {
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    /* margin-top: 20%; */
+    border-radius: 50%;
+    color: #C57E83;
+    font-size: 105px;
+  }
+  
+  .circleText {
+    margin-top: 17px;
+  }
+}
+
 
 /* C57E83 */
 
