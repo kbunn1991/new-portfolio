@@ -15,7 +15,8 @@ class Section1 extends React.Component {
         <div className="flexin">
           <div className="flexBox1">
             <div className="innerBox">
-              Hello! My name is Kaitlin and I'm a coding bug based in Atlanta, GA. I love creating beautiful websites and utilizing my skills in team environments with a focus on modern, clean design. When I'm not nose-deep in code, I'm travelling, competing in Overwatch, or binge-watching One Piece o /
+              Hello! My name is Kaitlin and I'm a coding bug based in Atlanta, GA. I love creating beautiful websites and working in team environments with a focus on modern, clean design. When I'm not nose-deep in code, I'm travelling, competing in Overwatch, or binge-watching One Piece o /<br /><br />
+              Scroll down to see my current projects!
             </div>
           </div>
 
@@ -23,10 +24,10 @@ class Section1 extends React.Component {
             <h1>notable skills</h1>
 
             <div className="skills">
-              techstack: css, html, javascript, node.js, sql, mongoDB, react, react native, redux <br /><br />
-              languages: english (fluent) korean (int.), spanish (int.), japanese (beg.)
+              techstack: css, html, javascript, node.js, sql, mongoDB, react, react native, redux, github, devtools <br /><br />
+              languages: english (fluent), korean (int.), spanish (int.), japanese (beg.)
               <br /><br />
-              other: photoshop, microsoft office
+              other: photoshop cc, creative and professional writing, international travel experience
             </div>
           </div>
         </div>

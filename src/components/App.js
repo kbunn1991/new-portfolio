@@ -13,13 +13,13 @@ class App extends Component {
       <div>
         <HeaderBar />
 
-        <ScrollableAnchor id={'section1'}>
+        <ScrollableAnchor id={'about'}>
           <Section1 />
         </ScrollableAnchor>
-        <ScrollableAnchor id={'section2'}>
+        <ScrollableAnchor id={'projects'}>
           <Section2 />
         </ScrollableAnchor>
-        <ScrollableAnchor id={'section3'}>
+        <ScrollableAnchor id={'contact'}>
           <Section3 />
         </ScrollableAnchor>
       </div>
