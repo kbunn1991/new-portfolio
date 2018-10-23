@@ -13,17 +13,21 @@ class Section2 extends React.Component {
               <div className="infoz">
                 <div className="links">
                   
-                  <div className="buttonBg">
-                    <div className="button">
-                      live app
-                    </div>
-                  </div> 
+                  <a href="https://partyup-client.herokuapp.com/">
+                    <div className="buttonBg">
+                      <div className="button">
+                        live app
+                      </div>
+                    </div> 
+                  </a>
 
-                  <div className="buttonBg">
-                    <div className="button">
-                      github
-                    </div>
-                  </div> 
+                  <a href="https://github.com/kbunn1991/kaitlin-partyup-client">
+                    <div className="buttonBg">
+                      <div className="button">
+                        github
+                      </div>
+                    </div> 
+                  </a>
 
                 </div>
                 <div className="projectImage partyUp">
@@ -40,17 +44,23 @@ class Section2 extends React.Component {
               <div className="infoz">
                 
               <div className="links">
-                <div className="buttonBg">
-                    <div className="button">
-                      live app
-                    </div>
-                  </div> 
 
-                  <div className="buttonBg">
-                    <div className="button">
-                      github
-                    </div>
-                  </div>
+                <a href="https://bunneh-client.herokuapp.com/">
+                    <div className="buttonBg">
+                      <div className="button">
+                        live app
+                      </div>
+                    </div> 
+                  </a>
+
+                  <a href="https://github.com/kbunn1991/Lapine-DonnyKaitlin-Client">
+                    <div className="buttonBg">
+                      <div className="button">
+                        github
+                      </div>
+                    </div> 
+                  </a>
+
                 </div> 
 
                 <div className="projectImage bunnyBabble">
@@ -66,17 +76,23 @@ class Section2 extends React.Component {
               <div className="infoz">
                 
               <div className="links">
-                <div className="buttonBg">
-                    <div className="button">
-                      live app
-                    </div>
-                  </div> 
 
-                  <div className="buttonBg">
-                    <div className="button">
-                      github
-                    </div>
-                  </div>
+                <a href="https://weatherfm-client.herokuapp.com/">
+                    <div className="buttonBg">
+                      <div className="button">
+                        live app
+                      </div>
+                    </div> 
+                  </a>
+
+                  <a href="https://github.com/kbunn1991/WeatherFM-Client-PurpleCobras">
+                    <div className="buttonBg">
+                      <div className="button">
+                        github
+                      </div>
+                    </div> 
+                  </a>
+
                 </div>
 
                 <div className="projectImage weatherFM">
@@ -93,17 +109,23 @@ class Section2 extends React.Component {
               <div className="infoz">
 
                 <div className="links">
-                <div className="buttonBg">
-                    <div className="button">
-                      live app
-                    </div>
-                  </div> 
 
-                  <div className="buttonBg">
-                    <div className="button">
-                      github
-                    </div>
-                  </div>
+                <a href="https://overwatchapp.herokuapp.com/">
+                    <div className="buttonBg">
+                      <div className="button">
+                        live app
+                      </div>
+                    </div> 
+                  </a>
+
+                  <a href="https://github.com/kbunn1991/overwatch-app">
+                    <div className="buttonBg">
+                      <div className="button">
+                        github
+                      </div>
+                    </div> 
+                  </a>
+
                 </div>
                 <div className="projectImage overwatch">
                 </div>

@@ -100,6 +100,10 @@
   margin-left: 1%;
 }
 
+.sec2 .links a {
+  text-decoration: none;
+}
+
 .sec2 .buttonBg {
   width: 40%;
   height: auto;
