@@ -33,6 +33,7 @@ class Section2 extends React.Component {
                 <div className="projectImage partyUp">
                 </div>
                 <div className="pInfos">
+                <span>Demo Account:</span> un: demouser, pw: password123<br /><br />
                 <span>Party Up</span> is an app built for Playstation users to help them find specific groups to play online games with. It allows users to use specific tags with their groups, i.e. girls only, lgbtq+, etc.<br /><br />
                 
                 <span>frontend:</span> react, redux<br />
@@ -66,6 +67,8 @@ class Section2 extends React.Component {
                 <div className="projectImage bunnyBabble">
                 </div>
                 <div className="pInfos">
+                <span>Demo Account:</span> un: demouser, pw: password123<br /><br />
+
                 Bunny Babble is a language-learning app targeted towards consumers that wish to learn the language Lapine created for the novel Watership Down. It uses a spaced repetition algorithm to assist in memorization.
                 <br /><br />
                 <span>frontend:</span> react, redux, react pages <br />
@@ -98,6 +101,8 @@ class Section2 extends React.Component {
                 <div className="projectImage weatherFM">
                 </div>
                 <div className="pInfos">
+                <span>Demo Account:</span> un: demoUser, pw: password<br /><br />
+
                   Weather FM is a mood music app that gives you song recommendations based on the current weather. Created for music lovers, users can add the songs to playlists and export them to spotify.<br /><br />
 
                 <span>frontend:</span> react, redux <br />
